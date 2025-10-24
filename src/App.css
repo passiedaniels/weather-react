@@ -7,13 +7,14 @@ body {
   box-sizing: border-box;
   justify-content: flex-end;
 
-  margin: 20px;
   background-color: white;
 }
 .container {
   background: skyblue;
   border: 1px solid grey;
-  padding: 0 20px;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: 150px;
 }
 .form {
   font-size: 15px;
