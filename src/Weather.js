@@ -1,6 +1,6 @@
 import React from "react";
-import axios from "axios";
-import App from "./App";
+
+import "./App.css";
 
 export default function Weather(props) {
   let weatherData = {
@@ -35,7 +35,11 @@ export default function Weather(props) {
             </div>
             <div className="Weather">
               <div id="icon">
-                <img src={weatherData.imgUrl} className="emoji" />
+                <img
+                  src={weatherData.imgUrl}
+                  className="emoji"
+                  alt="weather description"
+                />
               </div>
 
               <div className="temp" id="temp">
