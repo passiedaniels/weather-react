@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
+body {
+  font-size: 15px;
+  background: white;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  color: black;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  box-sizing: border-box;
+  justify-content: flex-end;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 20px;
+  background-color: white;
+}
+.container {
+  background: skyblue;
+  border: 1px solid grey;
+  padding: 0 20px;
+}
+.form {
+  font-size: 15px;
+  padding: 50px;
+  width: 440px;
+  height: 1px;
+  padding-left: 0;
+  margin-left: 0;
+}
+.city-info {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 150px;
+}
+.searchbox {
+  text-align: left;
+  width: 330px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid purple;
+}
+.submitbox {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(6, 72, 129);
   color: white;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.submitbox:hover {
+  background-color: rgb(56, 130, 196);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.humidity {
+  color: rgb(207, 161, 161);
+}
+.wind {
+  color: rgb(207, 161, 161);
+}
+.Weather {
+  display: flex;
+  align-items: center;
+  transform: translateY(15px);
+}
+.emoji {
+  margin-right: 5px;
+  width: 70px;
+  height: 70px;
+}
+.temp {
+  font-size: 50px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-day {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.weather-day {
+  color: rgba(0, 0, 0);
+  margin-top: 40px;
+}
+.weather-icon {
+  width: 60px;
+  margin-top: 20px;
+}
+.weather-temperatures {
+  margin-top: 20px;
+  color: rgb(240, 146, 146);
+  display: flex;
+  justify-content: center;
+}
+.weather-temp1 {
+  padding: 0 10px;
+}
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+}
+.degree {
+  font-size: 0.5em;
+  position: relative;
+  top: -15px;
+}
+.unit {
+  font-size: 15px;
+  position: relative;
+  top: -18px;
+}
+.digit {
+  font-size: 48px;
 }
